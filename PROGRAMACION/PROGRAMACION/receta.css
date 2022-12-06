@@ -1,0 +1,197 @@
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(134, 177, 236);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header h2{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 500;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: rgb(8, 12, 28) ;
+}
+
+
+.boton{
+    
+    background: rgb(134, 177, 236) ;
+    color: white;
+    font-size: 15px;
+    font-weight: 150;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 3s ease all;
+    border-radius: 5px;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(imagenes/hospital13.jpg);   
+    background-size: cover;
+    background-position: center;
+    font-family:'Times New Roman', Times, serif;
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+
+.div-titulo {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div-titulo h1 {
+    font-weight: 300;
+}
+
+.contenedor {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+
+}
+
+/* ESTILOS FORMULARIO */
+.contenedor .div-formulario {
+    width: 30%;
+    height: 600px;
+    margin: 15px 15px;
+    background-color: rgb(134, 177, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.contenedor .div-formulario h2 {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-formulario form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor .div-formulario form input,
+.contenedor .div-formulario form button {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+/* ESTILOS LISTADO */
+.contenedor .div-listado {
+    width: 70%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color:  rgb(134, 177, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px white;
+}
+
+.contenedor .div-listado h2 {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 2em;
+    color: white;
+}
+
+.contenedor .div-listado .div-empleados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 0 50px;
+}
+
+.contenedor .div-listado .div-empleados p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: rgb(238, 236, 236);
+}
+                       
+hr {
+    width: 100%;
+    height: 1px;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    color: white;
+    border-radius: 50px;
+}
+
+.btn-editar {
+    background-color: green;
+}
+
+.btn-eliminar {
+    background-color: red;
+}
+
+/* Pie de página */
+footer{
+    position: relative;
+    width: 100%;
+    background: rgb(134, 177, 236);
+    padding:  20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+    margin-top:10px;
+}
+footer p{
+    font-size: 30px;
+    color: white;
+    align-content: center;
+}

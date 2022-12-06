@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(134, 177, 236);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.institucion{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    font-weight: 500;
+    padding-right: 10px;
+}
+nav a:hover{
+    color: rgb(8, 12, 28) ;
+}
+
+.boton{
+    background:rgb(134, 177, 236) ;
+    color: white;
+    font-size: 15px;
+    font-weight: 150px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 3s ease all;
+    border-radius: 5px;
+    padding-left: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+body{
+    height: 600px;
+    background-image:url(https://previews.123rf.com/images/nexusplexus/nexusplexus1212/nexusplexus121203134/16905981-ilustraci%C3%B3n-con-el-fondo-m%C3%A9dico-que-tiene-latidos-del-coraz%C3%B3n-el-m%C3%A9dico-y-el-estetoscopio.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 150%;
+}
+
+.btn-img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.ingresos a{
+    text-align: center;
+    color: white; 
+}
+
+.contenido{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos de Ingreso */
+.contenido .ingresos{
+    width: 30%;
+    height: 400px;
+    margin: 15px 15px;
+    background-color: rgb(161, 194, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0, 3);
+}
+
+.contenido .ingresos h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenido .ingresos form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido .ingresos form input,
+.contenido .ingresos form button{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+
+/* Estilos de la lista */
+.contenido .lista{
+    width: 70%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color:rgb(161, 194, 239);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0, 3);    
+}
+
+.contenido .lista h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenido .lista .lista_doc{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenido .lista .lista_doc p{
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+
+.btnEditar {
+    background-color: rgb(52, 133, 52);
+}
+
+.btnEliminar {
+    background-color: red;
+}
+
+.contenido .lista .lista_paci{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenido .lista .lista_paci p{
+    margin: 10px 0;
+    font-size: 1em;
+    color: #ddd;
+}
+
+/* Pie de página */
+footer{
+    position: relative;
+    width: 100%;
+    background: rgb(134, 177, 236);
+    padding: 20px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .iconos{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 100;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+footer .iconos li{
+    list-style: none;
+}
+
+footer .iconos li a{
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .iconos li a:hover{
+    transform: translateY(-10px);
+}
+
+footer p{
+    font-size: 30px;
+    color: white;
+    align-content: center;
+}

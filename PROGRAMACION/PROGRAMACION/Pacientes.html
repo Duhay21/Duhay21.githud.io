@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PACIENTES</title>
+    <link rel="stylesheet" href="estilosDPE.css">
+</head>
+<body>
+    <header>
+        <div class=" logo">
+            <img src= "imagenes/hospital9.ico" alt="">
+            <h2 class="institucion"> SISTEMA MÉDICO</h2>
+        </div>
+        <nav>
+            <a button type="button" href="Principal.html" class="boton"><span><strong>Inicio</strong></span></a>
+        </nav>
+    </header>
+
+    <div class="contenido">
+
+        <div class="ingresos">
+            <h2>Ingresos:</h2> 
+            
+            <form action="#" id="ingreso">
+                <input type="num" id="c_i" placeholder="Número de cédula:">
+                <input type="text" id="apellidos" placeholder="Apellidos:">
+                <input type="text" id="nombres" placeholder="Nombres:">
+                <button type="submit" id="btnAgregar" class="btn btn-info">Agregar</button>
+                <a>
+                <img onclick="Funcion1();"  src="imagenes/hospital14.jpg" class="btn-img" alt="">Recetas
+                <img  onclick="Funcion2();" src="imagenes/hospital15.jpg" class="btn-img" alt="">Diagnósticos
+                </a>
+            
+            </form>
+
+        </div>
+
+        <div class="lista">
+            <h2><u><b>Lista de Pacientes</b></u></h2>
+            <div class="lista_paci">
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>La prevención es salud. Haz de ti una prioridad.</p>
+    </footer>
+    
+    <script src="Paciente.js"></script>
+</body>
+</html>

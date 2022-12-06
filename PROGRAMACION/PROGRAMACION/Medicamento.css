@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  rgb(134, 177, 236);
+    background-image:url(https://www.farmaciavieitez.com/blog/wp-content/uploads/2016/11/farmaco-medicamento-farmacia.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(134, 177, 236);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+header h2{
+    color: white;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.boton{
+    background: rgb(134, 177, 236);
+    color: white;
+    font-size: 15px;
+    font-weight: 120;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 3s ease all;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+}
+
+
+.contenedor{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos de Ingreso */
+.contenedor .div-Medicamento{
+    width: 30%;
+    height: 400px;
+    margin: 15px 15px;
+    background-color: rgb(134, 177, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0, 3);
+}
+
+.contenedor .div-Medicamento h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-Medicamento form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.contenedor .div-Medicamento form input,
+.contenedor .div-Medicamento form button{
+    width: 60%;
+    padding: 10px 10px;
+    margin: 10px 10px;
+
+}
+
+/* Estilos de la lista */
+.contenedor .div-listado{
+    width: 55%;
+    height: calc(100% - 50px);
+    margin: 15px 15px;
+    background-color: rgb(134, 177, 236);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0, 3);    
+}
+
+.contenedor .div-listado h2{
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.contenedor .div-listado .div-Medicamento{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 0 30px;
+}
+
+.contenedor .div-listado .div-Medicamento p{
+    margin: 10px 0;
+    font-size: 1em;
+    color: rgb(7, 43, 244);
+}
+
+
+/* Pie de página */
+footer{
+    position: relative;
+    width: 100%;
+    background-color: rgb(134, 177, 236);
+    min-height: 70px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+footer p{
+    font-size: 30px;
+    color: white;
+    align-content: center;
+}
+
+
+hr{
+    width: 100%;
+    height: 1px;
+}
+
+.btn{
+    padding: 5px 10px;
+    border: none;
+    margin: 0 5px;
+    border-radius: 50px;
+}
+
+.btn-Editar {
+    background-color: rgb(16, 250, 16);
+}
+
+.btn-Eliminar {
+    background-color: red;
+}

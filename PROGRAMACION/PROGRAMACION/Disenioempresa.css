@@ -1,0 +1,118 @@
+*{
+    margin: auto;
+}
+body{
+    display: block;
+    margin: 0;
+    padding: 0;
+    background: url(https://previews.123rf.com/images/merznatalia/merznatalia1607/merznatalia160705467/60000758-protecci%C3%B3n-de-la-salud-y-el-seguro-salud-m%C3%A9dica-empresa-en-la-seguridad-de-la-salud-fondo-de-la-ofic.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: rgb(134, 177, 236);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1px;
+}
+header h2{
+    color: white;
+}
+
+footer{
+    position: relative;
+    width: 100%;
+    background: rgb(134, 177, 236);
+    min-height: 70px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+
+footer p{
+    font-size: 30px;
+    color: white;
+    align-content: center;
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.boton{
+    background: rgb(134, 177, 236);
+    color: white;
+    font-size: 15px;
+    font-weight: 150;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 3s ease all;
+    border-radius: 5px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+td{
+    color:rgb(12, 3, 20);
+    font-weight: bold;
+    background-color:deepskyblue;
+    margin-bottom:20px;
+    margin-top:20px;
+    padding: 7px;
+    width: 300px;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    margin:auto;
+    border: 3px solid rgb(255, 136, 0);
+}
+th{
+    color:rgb(12, 3, 20);
+    font-weight: bold;
+    background-color:rgb(18, 240, 248);
+    margin-bottom:20px;
+    margin-top:20px;
+    padding: 7px;
+    width: 300px;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:normal;
+    margin:auto;
+    border: 3px solid rgb(255, 136, 0);
+}
+caption{
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+hr{
+    width: 100%;
+    height: 1px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="Diseniodiagnostico.css">
+</head>
+
+<body>
+    <header>
+        <div class=" logo">
+            <img src="imagenes/hospital9.ico" alt="Logo" >
+            <h2 class="div-titulo"> Diagnostico de pacientes</h2>
+        </div>
+        
+        <nav>
+            <a button type="button" href="Pacientes.html" class="boton"><span><strong>Atrás</strong></span></a>
+            <a button type="button" href="Principal.html" class="boton"><span><strong>Inicio</strong></span></a>
+
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <div class="div-formulario">
+            <h2> Formulario</h2>
+
+            <form action="#" id="formulario">
+                <input type="text" id="Nombre" placeholder="Ingrese un nombre">
+                <input type="text" id="Apellidos" placeholder="Ingrese un apellidos">
+                <input type="text" id="Diagnostico" placeholder="Ingrese un Diagnostico">
+                <input type="text" id="Doctor" placeholder="Ingrese un Doctor">
+                <button type="submit" id="btnAgregar" >Agregar</button>
+            </form>
+        </div>    
+    
+
+        <div class="div-listado">
+            <h2>Lista de pacientes atendidos</h2>
+            <div class="div-pacientes">
+
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>La prevención es salud. Haz de ti una prioridad.</p>
+    </footer>
+
+    <script src="diagnostico.js"></script>
+</body>
+</html>

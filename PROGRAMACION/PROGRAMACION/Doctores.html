@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCTORES</title>
+    <link rel="stylesheet" href="estilosDPE.css">
+</head>
+<body>
+    <header>
+        <div class=" logo">
+            <img src="imagenes/hospital9.ico" alt="">
+            <h2 class="institucion"> SISTEMA MÉDICO</h2>
+        </div>
+        <nav>
+            <a button type="button" href="Principal.html" class="boton"><span><strong>Inicio</strong></span></a>
+        </nav>
+        
+    </header>
+
+    <div class="contenido">
+
+        <div class="ingresos">
+            <h2>Ingresos:</h2> 
+            
+            <form action="#" id="ingreso">
+                <input type="num" id="c_i" placeholder="Número de cédula:">
+                <input type="text" id="apellido" placeholder="Apellido:">
+                <input type="text" id="nombre" placeholder="Nombre:">
+                <input type="text" id="especialidad" placeholder="Especialidad:">
+                <input type="text" id="jornada" placeholder="Jornada:">
+                <button type="submit" id="btnAgregar" class="btn btn-info">Agregar</button>
+            </form>
+
+        </div>
+
+        <div class="lista">
+            <h2><u><b>Lista de Médicos</b></u></h2>
+            <div class="lista_doc">
+
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>La prevención es salud. Haz de ti una prioridad.</p>
+    </footer>
+    
+    <script src="Doc.js"></script>
+</body>
+</html>
